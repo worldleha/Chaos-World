@@ -1,0 +1,76 @@
+{
+    "name": "PanelManager",
+    "maps": [
+        {
+            "name": "panel",
+            "id": "265c2983-8eb3-4456-b395-6bd79058ea05",
+            "actions": [
+                {
+                    "name": "EscPanel",
+                    "type": "Button",
+                    "id": "7b956dc5-e4e7-4c57-99bf-824905ccd06d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OpenPanel",
+                    "type": "Button",
+                    "id": "42cd277a-b86b-45ed-bf19-7e47a4916a01",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fbc50191-b28b-46ff-aa09-245a2a289ad4",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EscPanel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a198b4a1-9555-4261-9a3e-76e499a2b018",
+                    "path": "<Keyboard>/u",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenPanel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6b872b8-dffb-4ec2-911f-61f57196af17",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenPanel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36185039-a896-4aed-997c-9d72c29c73ab",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenPanel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

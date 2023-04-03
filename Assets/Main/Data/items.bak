@@ -1,0 +1,5 @@
+ID	NAME	MAXMOUNT	TYPE	TAG	NACTION	SACTION	CONSUME	PREFABNAME	IMAGENAME	HEALTH	SHEALTH	SAHEALTH	RHEALTH	SMANA	SAMANA	RMANA	SHIELD	SSHIELD	SASHIELD	SSTRENGTH	SASTRENGTH	RSTRENGTH	SATEMPERATURE	MagicDamage	PhysicalDamage	AttackSpeed	MoveSpeed	SkillImageName
+1	MagicBlue	1	Instrument	Handy	HumanoidWeaponNormalAttack	WaterBall	None	MagicBlue	MagicBlue	0	0	0	0	10	0.1	0	0	0	0	0	1	0	0	2	4	0	0	None
+2	NanometreShield	1	Equipment	Shield	None	None	None	None	NanometreShield	0	0	0	0	0	0	0	1000	0	0.5	0	0	0	0	0	0	0	0	None
+3	WaterBall	1	Skill	Skill	None	WaterBall	LearnSkill	EnchantedMetalPaper	Skill	0	0	0	0	1	0	0	0	0	0	0	0	0	0	5	0	0	0	WaterBall
+4	KnockAttack	1	Skill	Skill	None	KnockAttack	LearnSkill	EnchantedMetalPaper	Skill	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	KnockAttack

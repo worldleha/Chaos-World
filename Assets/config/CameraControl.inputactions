@@ -1,0 +1,67 @@
+{
+    "name": "CameraControl",
+    "maps": [
+        {
+            "name": "Camera",
+            "id": "8fb113f0-dcba-4677-8b52-452b3e74006f",
+            "actions": [
+                {
+                    "name": "XY Axis",
+                    "type": "PassThrough",
+                    "id": "3e548692-a35a-4492-be7f-25054f6e3b55",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5fbf7c5d-b92c-43f9-bf87-74e447233545",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XY Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "MiddleSwitch",
+                    "id": "79fcf317-2f18-4983-8efe-7a1ee5f86232",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XY Axis",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "2b195bf9-0378-4c75-9dee-3c3701b97e57",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XY Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "3eb7a894-bedf-40c9-b4b3-2d14fad1bf48",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=0.2,y=0.2)",
+                    "groups": "",
+                    "action": "XY Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -229,7 +229,7 @@
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Stick",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -240,7 +240,7 @@
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -251,7 +251,7 @@
                     "path": "<Mouse>/scroll/y",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Switch",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -262,7 +262,7 @@
                     "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "SwitchHandState",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -273,7 +273,7 @@
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "NormalAction",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -284,7 +284,7 @@
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "SpecialAction",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -295,7 +295,7 @@
                     "path": "<Mouse>/position",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "TargetPosition",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -306,7 +306,7 @@
                     "path": "<Keyboard>/1",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Skill",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -317,7 +317,7 @@
                     "path": "<Keyboard>/2",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Skill",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -328,7 +328,7 @@
                     "path": "<Keyboard>/3",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Skill",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -339,7 +339,7 @@
                     "path": "<Keyboard>/4",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Skill",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -350,7 +350,7 @@
                     "path": "<Keyboard>/5",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Skill",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -394,7 +394,7 @@
                     "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "MouseDelta",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -425,17 +425,6 @@
             "devices": [
                 {
                     "devicePath": "<Gamepad>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
-        {
-            "name": "Touch",
-            "bindingGroup": "Touch",
-            "devices": [
-                {
-                    "devicePath": "<Touchscreen>",
                     "isOptional": false,
                     "isOR": false
                 }

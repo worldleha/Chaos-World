@@ -43,11 +43,14 @@ public class Item
         item2D = gameObject2D.GetComponent<Item2D>();
         item2D.item = this;
         item2D.tag = tag;
+
+        if(itemAssets == null) itemAssets = GameObject.Find("ItemAssets");
         GameObject gameObject3D =
             Object.Instantiate(PrefabManager.GetPrefabManager().GetItemByName(
                 GetStringFromInformation(ItemInformation.PrefabName)
                 ), itemAssets.transform);
         gameObject3D.SetActive(false);
+        
         item3D = gameObject3D.GetComponent<Item3D>();
         item3D.item = this; 
     }

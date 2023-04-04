@@ -67,7 +67,6 @@ public class PlayerControl : Character
         backpackContainer.SetAllItemSpaceCharacter(this);
         equipmentContainer.SetAllItemSpaceCharacter(this);
         handpickContainer.SetAllItemSpaceCharacter(this);
-
         isActive = true;
         
     }
@@ -167,11 +166,14 @@ public class PlayerControl : Character
                 CS.MoveSpeed /= 1.5f;
         };
 
+        //PlayerInput pi = GetComponent<PlayerInput>();
+        //pi.actions["MouseDelta"].started += InputMousePositionDelta;
     }
     
     //加速
     public void PressStick(CallbackContext callbackContext)
     {
+    
         // 该换 C# 脚本控制注册按键 时 删除 if(!isActive) return;
         if (!isActive) return;
         bool isStick = callbackContext.ReadValue<float>() > 0;
@@ -191,6 +193,7 @@ public class PlayerControl : Character
     // 移动角色
     public void InputMove(CallbackContext callbackContext)
     {
+      
         if (!isActive) return;
         if (callbackContext.phase == InputActionPhase.Canceled)
         {
@@ -218,6 +221,7 @@ public class PlayerControl : Character
    
     public void InputJump(CallbackContext callbackContext)
     {
+       
         if (!isActive) return;
         if (callbackContext.ReadValue<float>() > 0)
         {
@@ -227,6 +231,7 @@ public class PlayerControl : Character
 
     public void InputSwitch(CallbackContext callbackContext)
     {
+       
         if (!isActive) return;
         if (callbackContext.phase == InputActionPhase.Started)
             {
@@ -242,14 +247,16 @@ public class PlayerControl : Character
     // 输入鼠标位置
    public void InputTargetPosition(CallbackContext callbackContext)
     {
+        Debug.Log("Hello1");
         if (!isActive) return;
         Vector2 targetPosition = callbackContext.ReadValue<Vector2>();
         playerRotation.RotatePlayerBaseRay(targetPosition);
         targetSimpleFollow.MouseMoveTarget(targetPosition);
     }
     
-    public void InputMoustPositionDelta(CallbackContext callbackContext)
+    public void InputMousePositionDelta(CallbackContext callbackContext)
     {
+        Debug.Log("Hello2s");
         if (!isActive) return;
         Vector2 delta = callbackContext.ReadValue<Vector2>();
         playerRotation.RotatePlayerDirectly(delta);

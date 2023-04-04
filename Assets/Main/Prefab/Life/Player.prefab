@@ -451,7 +451,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7696654356594725350}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
@@ -665,7 +665,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7696654356594725349}
         m_TargetAssemblyTypeName: PlayerControl, Assembly-CSharp
-        m_MethodName: InputMoustPositionDelta
+        m_MethodName: InputMousePositionDelta
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "XY Axis1",
+                    "type": "PassThrough",
+                    "id": "f8eb9ab4-c0da-4a4a-b4a5-3d3ff72c80d9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -59,6 +68,17 @@
                     "action": "XY Axis",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "6183ec7d-6677-44be-a4a3-afa68ab7ceff",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XY Axis1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

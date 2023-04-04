@@ -3,7 +3,12 @@ guid: 9e6cda792fb6dda44ac5f2c4494ceb70
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Little_Stone.001
+    second: {fileID: 2100000, guid: 39ff06c497a6ec94b999094ca085e1a1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
